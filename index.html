@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
+<html lang="tr"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XOX Online | Lobi Sistemi</title>
@@ -212,7 +210,7 @@
     </style>
 </head>
 <body>
-    <canvas id="arkaplan-canvas"></canvas>
+    <canvas id="arkaplan-canvas" width="343" height="641"></canvas>
 
     <div id="ana-menu" class="ekran aktif">
         <h1>XOX ONLINE</h1>
@@ -220,7 +218,7 @@
         <a href="https://secenekler-c063.onrender.com/" style="text-decoration: none;">
     <button id="secenekler-btn" class="btn">Seçenekler</button>
 </a>
-        <a href="https://xox-hx5n.onrender.com" class="btn btn-ikincil" style="text-decoration: none;">Geri</a>
+        <button id="hakkimizda-btn" class="btn">Hakkımızda</button>
     </div>
 
     <div id="lobi-ekrani" class="ekran">
@@ -234,7 +232,6 @@
         <hr style="width: 80%; border-color: #333; margin: 20px 0;">
         <input type="text" id="lobi-kodu-giris" placeholder="Lobi Kodu Gir...">
         <button id="lobiye-katil-btn" class="btn">Lobiye Katıl</button>
-        <button id="hakkimizda-btn" class="btn">Lobiye Katıl</button>
     </div>
 
     <div id="oyun-ekrani" class="ekran">
@@ -261,7 +258,7 @@
             <label for="grafik-secimi">Grafik Kalitesi</label>
             <select id="grafik-secimi" class="btn" style="width: 180px; text-align: center; color: var(--metin-rengi); background: #333;">
                 <option>Düşük</option>
-                <option selected>Orta</option>
+                <option selected="">Orta</option>
                 <option>Yüksek</option>
             </select>
         </div>
@@ -488,5 +485,6 @@
         });
 
     </script>
-</body>
-</html>
+
+
+</body></html>
